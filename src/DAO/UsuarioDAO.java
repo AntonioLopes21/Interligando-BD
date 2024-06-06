@@ -15,7 +15,7 @@ public class UsuarioDAO {
         PreparedStatement ps = null;
 
         try {
-            ps = Conexao.getConexao().prepareStatement(sql);
+            ps = Conexao.getConexao().PreparedStatement(sql);
             
             ps.setString(1, usuario.getNome());
             ps.setString(2, usuario.getLogin());
