@@ -1,4 +1,4 @@
-package entity;
+
 
 public class Atividade {
     private int atividade_id;

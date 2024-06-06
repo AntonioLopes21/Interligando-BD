@@ -46,4 +46,8 @@ public class Conexao {
     public static Object getConexao() {
         throw new UnsupportedOperationException("Not supported yet.");
     }
+
+    public static Connection getConnection() {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
 }

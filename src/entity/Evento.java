@@ -58,4 +58,16 @@ public class Evento {
     public void setLocal_evento(String local_evento) {
         this.local_evento = local_evento;
     }
+
+    public String getLocal() {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+    public Date getData() {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+    public String getNome() {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
 }

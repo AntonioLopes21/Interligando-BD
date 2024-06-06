@@ -5,6 +5,8 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
+import conexao.Conexao;
+
 public class EventoDAO {
 
     private Connection connection;
